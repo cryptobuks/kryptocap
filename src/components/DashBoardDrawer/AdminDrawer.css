@@ -1,0 +1,23 @@
+#grouped-demo ::-webkit-scrollbar, .side_drawer ::-webkit-scrollbar {
+  width: 0px;
+}
+
+#grouped-demo ::-webkit-scrollbar, .side_drawer ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #282439;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#grouped-demo ::-webkit-scrollbar,.side_drawer ::-webkit-scrollbar-thumb {
+  background: #282439;
+  border-radius: 10px;
+}
+
+#grouped-demo ::-webkit-scrollbar,.side_drawer ::-webkit-scrollbar-thumb:hover {
+  background: #1c8aff;
+}
+.css-evybia-MuiPaper-root-MuiDrawer-paper {
+  border-right: none;
+}
+
+

@@ -1,0 +1,24 @@
+/* width */
+.Modalbox ::-webkit-scrollbar {
+    width: 0px;
+   
+  }
+  
+  /* Track */
+  .Modalbox ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+
+  }
+   
+  /* Handle */
+  .Modalbox ::-webkit-scrollbar-thumb {
+    background: #6C6C6C; 
+    border-radius: 10px;
+    height:20px !important;
+  }
+  
+  /* Handle on hover */
+  .Modalbox ::-webkit-scrollbar-thumb:hover {
+    background: #6C6C6C; 
+  }
